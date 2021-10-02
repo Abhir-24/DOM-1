@@ -133,6 +133,16 @@ console.log(itemList.previousSibling);
 previousElementSibling
 console.log(itemList.previousElementSibling);itemList.previousElementSibling.style.color = 'green';
 
+
+lastElementChild
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = 'Hello 4';
+
+nextSibling
+console.log(itemList.nextSibling);
+// nextElementSibling
+console.log(itemList.nextElementSibling);
+
 createElement
 
 // Create a div
@@ -143,6 +153,10 @@ newDiv.className= 'hello';
 
 // Add id
 newDiv.id = 'hello1';
+
+console.log(itemList.previousSibling);
+previousElementSibling
+console.log(itemList.previousElementSibling);itemList.previousElementSibling.style.color = 'green';
 
 // Add attr
 newDiv.setAttribute('title', 'Hello Div');
