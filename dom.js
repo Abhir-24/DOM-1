@@ -50,6 +50,13 @@ li[1].style.fontWeight = 'bold';
 li[1].style.backgroundColor = 'yellow';
 
 // Gives error
+
+Parsing THE DOM //
+var itemList = document.querySelector('#colins');
+parentNode
+console.log(itemList.parentNode);
+itemList.parentNode.style.backgroundColor = '#fff';
+console.log(itemList.parentNode.parentNode.parentNode);
 //items.style.backgroundColor = '#f4f4f4';
 
 for(var i = 0; i < li.length; i++){
