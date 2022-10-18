@@ -3,7 +3,9 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: red;
+  color: blue;
+  text-align: left;
+  margin: 0 0 20px; 
 }
 p {
   color: blue;
