@@ -3,39 +3,39 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
-}
-p {
   color: red;
 }
+p {
+  color: blue;
+}
 *{
-  line-height : 1.5;
+  line-height : 2;
 }
 
 .btn {
   color: #fff;
   background: var(--primary-color);
   cursor: pointer;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px 15px;
 }
 
 .links-home {
   font: bold;
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: space-around;
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     margin: 0 0 20px; 
  }
 
 .container, .card {
     background: #fff;
-    border-radius: 4px;
+    border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
     width: 550px;
   }
