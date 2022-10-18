@@ -3,10 +3,10 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  color: red;
 }
 p {
-  color: red;
+  color: blue;
 }
 *{
   line-height : 1.5;
@@ -16,9 +16,9 @@ p {
   color: #fff;
   background: var(--primary-color);
   cursor: pointer;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 5px 5px;
 }
 
 .links-home {
@@ -30,7 +30,7 @@ p {
 
 h2 {
     text-align: center;
-    margin: 0 0 20px; 
+    margin: 20px 20px 20px; 
  }
 
 .container, .card {
