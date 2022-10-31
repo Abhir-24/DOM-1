@@ -8,13 +8,15 @@ h1 {
   margin: 0 0 20px; 
 }
 p {
-  color: blue;
+  color: red;
+ text-align : left;
 }
 *{
-  line-height : 2;
+  line-height : 3;
 }
 
 .btn {
+  background-color: powderblue;
   color: #fff;
   background: var(--primary-color);
   cursor: pointer;
